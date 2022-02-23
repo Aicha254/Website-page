@@ -1,0 +1,346 @@
+body{
+    padding: 0;
+    margin: 0;
+
+}
+.navbar-toggler-icon{
+    color: black;
+}
+.navbar-brand img{
+    height: 50px;
+}
+.navbar-nav a{
+    color: black;
+    padding: 1rem;
+    margin-left: 1rem; 
+    padding-top: 2rem;
+}
+.navbar-nav button{
+    height: 40px;
+    color: white;
+}
+
+/*  =========================== About-us  section ========================= */
+
+
+.container .left-side {
+    background: #009688;  
+}
+.container .left-side p{
+    margin-top: 6rem;
+    padding: 0 3rem;
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+    color: white;
+}
+.container .left-side .btn{
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+}
+.container .right-side{
+    margin-top: 6rem;
+    padding-left: 4rem;
+}
+
+/* ===================================== Formation =========================== */
+
+.formation {
+    position: relative;
+    background: #009688;
+    border-radius: 20px; 
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 7rem;
+    /* margin-bottom: 2rem; */
+}
+.formation .para{
+    color: white;
+    padding-top: 2rem;
+    margin-bottom: 3rem;
+    padding-left: 2rem;
+}
+.formation .icon{
+    display: flex;
+    justify-content: space-around;
+}
+.formation .programmation, .formation .design, .formation .marketing, .formation .entreprenariat, .formation .projet, .formation .bureautique{
+    display: flex;
+}
+
+.formation .icon p{
+    padding-left: 1rem;
+    color: white;
+}
+.formation .icon .fas{
+    color: white;
+    font-size: x-large;
+    
+}
+
+
+.formation-right-side{
+    border: 1px solid green;
+    border-radius: 20px;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
+.formation-right-side h2{
+    padding: 2rem;
+    text-align: center;
+}
+.formation-right-side h6{
+    padding-left: 2rem;
+}
+.formation-right-side button{
+    margin-left: 14rem;
+}
+
+/*  ================================= Nos cours ============================== */
+
+.nos-cours{
+    margin-top: 3rem;
+}
+.nos-cours-programmation{
+    border: 1px solid red;
+    border-radius: 20px;
+    margin-top: 1rem;
+}
+.nos-cours-programmation img{
+    width: 150px;
+    height: 150px;  
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+.nos-cours-programmation p{
+    padding-left: 3rem;
+    padding-top: 1rem;
+    color: red;
+}
+.nos-cours-design {
+    border: 1px solid rgb(22, 194, 203);
+    border-radius: 20px;
+    margin-top: 3rem;
+}
+
+.nos-cours-design img{
+    width: 150px;
+    height: 150px;  
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+.nos-cours-design p{
+    padding-left: 4rem;
+    padding-top: 1rem;
+    color: rgb(22, 194, 203);
+}
+.nos-cours-marketing {
+    border: 1px solid orange;
+    border-radius: 20px;
+    margin-top: 3rem;
+}
+
+.nos-cours-marketing img{
+    width: 150px;
+    height: 150px;  
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+.nos-cours-marketing p{
+    padding-left: 3rem;
+    padding-top: 1rem;
+    color: orange;
+}
+.nos-cours-partenariat{
+    border: 1px solid rgb(22, 194, 203);
+    border-radius: 20px;
+    margin-top: 3rem;
+}
+
+.nos-cours-partenariat img{
+    width: 150px;
+    height: 150px;  
+    padding-left: 3rem;
+    padding-top: 2rem;
+}
+.nos-cours-partenariat p{
+    padding-left: 4rem;
+    padding-top: 1rem;
+    color: rgb(22, 194, 203);
+}
+
+
+/*  ============================ Nos diplome ======================== */
+
+#diplome{
+    margin-bottom: 2rem; 
+    background: #F44336;
+    margin: 4rem 0;   
+}
+.img{
+    width: 100%;
+    background: #F44336; 
+}
+#diplome h2{
+    color: white;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+}
+#diplome .cp, .dap, .dep, .dts{
+    display: flex;
+    color: white;
+}
+#diplome .fas{
+    font-size: 30px;
+    padding-bottom: 10px;
+    padding: 0 2rem;
+}
+
+/*  ==================================== Nos coach ================================= */
+
+.coach  button{
+    margin-left: 500px;
+    margin-bottom: 3rem;
+}
+.div1 {
+    border: 1px solid rgb(22, 194, 203);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+}
+.div1 img{
+    /* padding-top: 2rem; */
+    width: 200px;
+    height: 200;
+}
+
+/* ============================ Nos activites ========================= */
+
+#activites{
+    background: #F44336;
+    padding-bottom: 2rem;
+}
+#activites h3,p{
+    padding-left: 4rem;
+    color: white;
+}
+.img-activites{
+    width: 100%;
+    background: #F44336; 
+}
+
+#activites .side1 img{
+    height: 400px;
+}
+#activites .side2 .img1{
+    padding-bottom: 50px;
+    height: 250px;
+    width: 300px;
+}
+#activites .side2 .img2{
+    height: 200px;
+    width: 300px;
+    padding-bottom: 50px;
+}
+#activites .side3{
+    display: flex;
+    flex-direction: column;
+} 
+#activites .side3 .para1, .para2{
+    margin-bottom: 3rem;
+}
+#activites .side3 button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-left: 8rem;
+    color: white;
+}
+
+/*  ============================ Nos partenaires====================== */ 
+
+#parte h3{
+    padding-top: 4rem;
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+}
+#partenaires{
+    background: rgb(205, 243, 239);
+    padding-bottom: 2rem;
+}
+#partenaires .div-logo{
+    background: whitesmoke;
+    margin: 2rem;
+    border-radius: 10px;
+}
+#partenaires .div-logo img{
+    width: 100px;
+    height: 100px;
+    margin: 50px 20;
+}
+#partenaires button{
+    margin-left: 550px;
+}
+
+/* ========================= footer ======================== */
+
+footer{
+    background: #069a77;
+    margin-top: 4rem;
+    padding: 3rem; 
+}
+footer img{
+    height: 20px;
+    width: 20px;
+    margin-left: 1.5rem;
+}
+.icon-social{
+    padding-left: 2rem;
+}
+
+
+@media (max-width: 539px) { 
+    #partenaires .div-logo{
+        width: 150px;
+        height: 150px;
+    }
+    #partenaires button{
+        margin-left: 100px;
+    }
+    .coach  button{
+        margin-left: 100px;
+        /* margin-bottom: 3rem; */
+    }
+ }
+ @media (max-width: 675px) {
+    #partenaires button{
+        margin-left: 200px;
+    }
+    .coach  button{
+        margin-left: 100px;
+        /* margin-bottom: 3rem; */
+    }
+    .div1{
+        width: 300px;
+        height: 200px;
+    }
+    .nos-cours-programmation, .nos-cours-marketing, .nos-cours-design, .nos-cours-partenariat{
+        width: 300px;
+        height: 200px;
+    }
+    .div1 img{
+        width: 150px;
+        height: 150px;
+    }
+    #partenaires{
+       /* margin-right: 200px; */
+       flex-direction: row;
+       flex-wrap: wrap;
+    }
+    #partenaires .div-logo{
+        width: 200px;
+        height: 200px;
+    }
+ }
